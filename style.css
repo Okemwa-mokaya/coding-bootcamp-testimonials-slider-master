@@ -36,7 +36,7 @@ body{
   height: 100%;
   width: 100%;
   margin: 0 auto;
-  max-width: 950px;
+  max-width: 1444px;
   position: relative;
 }
 article{
@@ -152,6 +152,9 @@ article{
       width: 400px;
     }
     .button{
-       top: 483px;
+      position: absolute;
+      top: 483px;
+      transform: translateY(0%);
+      transform: translateX(20%);
     }
 }
