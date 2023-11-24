@@ -103,7 +103,9 @@ article{
 }
 .button{
   position: absolute;
-  top: 350px;
+  top: 315px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 90px;
   height: 40px;
   box-shadow: -20px 12px 20px 0px hsla(240, 18%, 77%, 0.53);
@@ -133,7 +135,7 @@ article{
 .prev::after{
   background-image: url(images/icon-prev.svg);
 }
-@media (min-width: 768px) {
+@media (min-width: 1100px) {
     article{
       flex-direction: row;
       text-align: left;
@@ -149,12 +151,14 @@ article{
       flex: 1;
     }
     .image-container img{
-      width: 400px;
+      width: 500px;
     }
     .button{
       position: absolute;
-      top: 483px;
-      transform: translateY(0%);
-      transform: translateX(20%);
+      top: 490px;
+      transform: translate(60%, 70%);
     }
+
+      
+    
 }
