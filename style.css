@@ -145,9 +145,13 @@ article{
       align-items: flex-start;
       flex: 1;
     }
+    .text{
+      font-size: 30px;
+    }
     .name{
       display: flex;
       gap: 0.5rem;
+      font-size: 20px;
     }
     .image-container{
       margin-left: -100px;
