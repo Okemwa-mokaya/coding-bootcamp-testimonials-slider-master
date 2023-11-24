@@ -145,6 +145,10 @@ article{
       align-items: flex-start;
       flex: 1;
     }
+    .name{
+      display: flex;
+      flex-direction: column;
+    }
     .image-container{
       margin-left: -100px;
       z-index: -1;
